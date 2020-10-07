@@ -1,0 +1,25 @@
+.intro{
+    background-image: url(./I95A2215\ \(2\).jpg);
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    height: 50rem;
+}
+
+.text-container {
+    position: relative;
+    top: 30px;
+    left: 30px;
+    width: 600px;
+}
+
+.intro-text {
+    font-size: 32px;
+    color: aliceblue;
+    line-height: 1.5;
+}

@@ -1,0 +1,15 @@
+.about-container {
+    margin: 1rem;
+    margin-right: 15rem;
+    padding:1rem;
+    border: solid 2px gray;
+    border-radius: 4px;
+    box-shadow: gray 3px 4px;
+}
+
+.about-header {
+    font-size: 64px;
+    padding-left: 50px;
+    background-color: #060b26;
+    color: aliceblue;
+}

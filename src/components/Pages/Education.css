@@ -1,0 +1,34 @@
+.card {
+    padding: 1rem;
+    border: #ccc 1px dotted;
+    margin: 0.7rem 0;
+    margin-left: 1.25rem;
+    width: 400px;
+    height: 150px;
+    line-height: 1.5;
+}
+.education-header{
+    font-size: 64px;
+    padding-left: 50px;
+    background-color: #060b26;
+    color: aliceblue;
+}
+
+.dev-img {
+    float: left;
+    height: 75px;
+}
+
+.school {
+    font-size: 24px;
+}
+
+.education-text{
+    float: right;
+    font-size: 20px;
+}
+
+.education-container {
+    display: flex;
+    justify-content: space-evenly;
+}
