@@ -63,19 +63,16 @@ const Sidebar = () => {
 							<span>Skills</span>
 						</Link>
 
-						<Link
+						<a
 							onClick={showSideBar}
 							className="nav-text"
-							activeClass="active"
-							to="Resume"
-							spy={true}
-							smooth={true}
-							offset={-10}
-							duration={500}
+							target="_blank"
+							rel="noopener noreferrer"
+							href="https://docs.google.com/document/d/17ljsxTXI4oPlgwg-FeYwj9EMAdVMs0bQj8kK5WYzlTQ/edit#"
 						>
 							<FaIcons.FaPaperclip />
 							<span>Resume</span>
-						</Link>
+						</a>
 
 						<Link
 							onClick={showSideBar}
