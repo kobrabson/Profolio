@@ -1,9 +1,10 @@
 import React from 'react';
 
-function Resume() {
+const Resume = (props) => {
 	return (
 		<div id="resume">
 			<div className="headers">Resume</div>
+
 			<p style={{ margin: '80px' }}>
 				Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
 				massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
@@ -108,8 +109,17 @@ function Resume() {
 				imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam
 				rhoncus.
 			</p>
+			<span>Here's my </span>
+			<a
+				style={{ margin: ' 80px 80px 80px 0' }}
+				target="_blank"
+				rel="noopener noreferrer"
+				href="https://docs.google.com/document/d/17ljsxTXI4oPlgwg-FeYwj9EMAdVMs0bQj8kK5WYzlTQ/edit#"
+			>
+				Resume
+			</a>
 		</div>
 	);
-}
+};
 
 export default Resume;
