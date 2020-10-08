@@ -4,7 +4,7 @@ function ContactMe() {
 	return (
 		<div id="ContactMe">
 			<div className="headers">Contact Me</div>
-			<p style={{ marginTop: '30px', marginLeft: '15px' }}> Phone: 512.909.6543</p>
+			<p style={{ marginTop: '30px', marginLeft: '15px' }}> Phone: ---.--.----</p>
 			<br />
 			<p style={{ marginLeft: '15px' }}> Email: ko.brabson55@gmail.com</p>
 			<br />
