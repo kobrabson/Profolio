@@ -3,8 +3,8 @@ import './About.css';
 
 function About() {
 	return (
-		<div>
-			<div className="about-header">About</div>
+		<div id="About">
+			<div className="headers">About</div>
 			<div className="about-container">
 				<p>
 					Hello! My name is Kody Brabson! I’m originally from Austin, Texas but I moved to Utah to marry my

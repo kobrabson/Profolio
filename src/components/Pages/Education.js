@@ -5,8 +5,8 @@ import './Education.css';
 
 function Education() {
 	return (
-		<div>
-			<div className="education-header">Education</div>
+		<div id="Education">
+			<div className="headers">Education</div>
 			<div className="education-container">
 				<div className="card">
 					<img src={DevImage} alt="Devmountain" className="dev-img" />

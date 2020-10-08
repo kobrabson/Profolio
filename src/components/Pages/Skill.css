@@ -1,0 +1,41 @@
+
+.skill-title {
+    color: #a1001a;
+    font-size: 24px;
+}
+
+.skill-container-frontend{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+    margin-top: 20px;
+}
+
+.skill-container-backend {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logos {
+    width: 80px;
+    height: 80px;
+}
+
+.java {
+    height: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.logo-title{
+    display: flex;
+    justify-content: center;
+}

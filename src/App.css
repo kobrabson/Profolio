@@ -4,3 +4,10 @@
     padding: 0;
     
 }
+
+.headers {
+    font-size: 64px;
+    padding-left: 50px;
+    background-color: #060b26;
+    color: aliceblue;
+}
