@@ -38,6 +38,8 @@
       list-style: none;
       height: 60px;
       font-size: 18px;
+      text-decoration: none;
+      color: aliceblue;
   }
 
   .nav-text a {
