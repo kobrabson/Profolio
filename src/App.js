@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
 import About from './components/Pages/About';
 import Education from './components/Pages/education/Education';
@@ -9,14 +9,14 @@ import Sidebar from './components/sidebar/Sidebar';
 
 const App = () => {
 	return (
-		<div>
+		<Fragment>
 			<Sidebar />
 			<Picture />
 			<About />
 			<Education />
 			<Skills />
 			<ContactMe />
-		</div>
+		</Fragment>
 	);
 };
 

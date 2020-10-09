@@ -1,0 +1,15 @@
+
+.font {
+    font-size: 24px;
+    margin: 30px;
+}
+
+.phone {
+    margin-bottom: 0;
+}
+
+.linkedin-link:hover {
+    color: red;
+}
+
+

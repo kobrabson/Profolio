@@ -1,4 +1,6 @@
 import React from 'react';
+import * as FaIcons from 'react-icons/fa';
+import * as GrIcons from 'react-icons/gr';
 import reactImage from './1280px-React-icon.svg.png';
 import javascriptImage from './javascript-logo-.png';
 import html5Image from './HTML5.png';
@@ -17,7 +19,10 @@ function Skills() {
 			<div className="headers">Skills</div>
 			<div className="skills-container">
 				<div className="skill-container-frontend card">
-					<p className="skill-title">Frontend</p>
+					<p className="skill-title">
+						{' '}
+						<FaIcons.FaDesktop /> Frontend
+					</p>
 					<div className="logo-container">
 						<img className="logos" src={reactImage} alt="react logo" /> <p className="logo-title">React</p>
 					</div>
@@ -56,7 +61,9 @@ function Skills() {
 					<div className="logo-container">
 						<img className="logos" src={mongoDB} alt="MongoDB Logo" /> <p className="logo-title">MongoDB</p>
 					</div>
-					<p className="skill-title">Backend</p>
+					<p className="skill-title backend">
+						Backend <FaIcons.FaServer />{' '}
+					</p>
 				</div>
 			</div>
 		</div>

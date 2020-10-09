@@ -1,6 +1,6 @@
 .card {
     padding: 1rem;
-    border: #ccc 1px dotted;
+    border: black 1px dashed;
     margin: 0.7rem 0;
     margin-left: 1.25rem;
     width: 400px;
@@ -25,4 +25,17 @@
 .education-container {
     display: flex;
     justify-content: space-evenly;
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 350px;
+        height: 300px;
+    }
+    .school {
+        float: left;
+    }
+    .education-text {
+        float: left;
+    }
 }
