@@ -42,6 +42,11 @@
     .intro-text {
         font-size: 20px;
     }
+
+    .text-container {
+        left: 0;
+        width: auto;
+    }
 }
 
 @media (max-width: 420px) {
@@ -56,5 +61,8 @@
         background-clip: initial;
         background-color: initial;
         height: 50rem;
+    }
+
+    .text-container{
     }
 }
