@@ -54,7 +54,7 @@ function About() {
 						newly acquired web development knives are ready to be sharpened and used.
 					</p>
 					<br />
-					<p className="text-size-mid">I look forward to talking with you soon</p>
+					<p className="text-size-mid">I look forward to talking with you soon.</p>
 					<br />
 					<p className="text-size-mid">Sincerely,</p>
 					<br />
