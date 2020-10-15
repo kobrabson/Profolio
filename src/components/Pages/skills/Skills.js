@@ -1,6 +1,5 @@
 import React from 'react';
 import * as FaIcons from 'react-icons/fa';
-import * as GrIcons from 'react-icons/gr';
 import reactImage from './1280px-React-icon.svg.png';
 import javascriptImage from './javascript-logo-.png';
 import html5Image from './HTML5.png';
