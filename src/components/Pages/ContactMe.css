@@ -12,4 +12,5 @@
     color: red;
 }
 
-
+@media (max-width: 600px){
+.contact-me-header {font-size: 58px;}}

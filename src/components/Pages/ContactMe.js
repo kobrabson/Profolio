@@ -4,7 +4,7 @@ import './ContactMe.css';
 function ContactMe() {
 	return (
 		<div id="ContactMe">
-			<div className="headers">Contact Me</div>
+			<div className="headers contact-me-header">Contact Me</div>
 			<p className="phone font"> Phone: 512.909.6543</p>
 			<br />
 			<p className="email font "> Email: ko.brabson55@gmail.com</p>
