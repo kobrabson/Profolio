@@ -10,7 +10,7 @@ function Picture() {
 				</span>
 				<br />
 				<span className="intro-text">
-					for a smooth seemless<span style={{ textDecoration: 'underline' }}>experience</span>
+					for a smooth seamless<span style={{ textDecoration: 'underline' }}>experience</span>
 				</span>
 				<br />
 				<span className="intro-text">easy to design for easy use.</span>
